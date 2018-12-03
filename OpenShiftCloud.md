@@ -1,8 +1,11 @@
 ### OpenShift Cloud
 
 There is few tips/notes that may help during a setup of a cloud using openshift-ansible.
-This example refer to the setup that i've made using 3 "slaves" PCs, 1 "master" PC and finnaly my PC from which
-i did the different tasks but which is not part of the cloud itselft.
+This example refer to the setup that i've made using:
+
+  - 3 "slaves" PCs
+  - 1 "master" PC
+  - My PC from which i did the different tasks but which is not part of the cloud itselft
 
 
 #### Master
