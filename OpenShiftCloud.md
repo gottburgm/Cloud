@@ -96,7 +96,7 @@ Create your inventory file using the example file and following the process desc
 Don't forget to run the uninstall playbook before any retry if there was error(s) during previous deployment/installation:
 
 ```bash
-   ansible-playbook -i inventory/hosts.cloud.redhat playbooks/adhoc/uninstall.yml
+   ansible-playbook -i inventory/<inventory_file> playbooks/adhoc/uninstall.yml
 ```
   
 Otherwhise you can directly run the deployment using the following commands (from the pc which is not part of the cloud) 
